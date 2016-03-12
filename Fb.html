@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="app">
+<head>
+<title>Fb integration with AngularFire</title>
+</head>
+<body  ng-controller="loginController">
+<div>
+	<label> Demo Authenticate with Fb</label><br>
+	<button class="btn-facebook" type="submit" value="facebook" ng-click="signInWithFB('facebook')">FACEBOOK</button>  
+</div>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.0/angular.min.js"></script>
+	  <!-- Firebase -->
+	<script src="https://cdn.firebase.com/js/client/2.2.4/firebase.js"></script>
+	<!-- AngularFire -->
+	<script src="https://cdn.firebase.com/libs/angularfire/1.1.3/angularfire.min.js"></script>
+    <script src="fb.js"></script>
+
+</body>
+</html>	

@@ -1,0 +1,1 @@
+# angularfire-user-management
