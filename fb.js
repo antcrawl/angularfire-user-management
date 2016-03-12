@@ -1,3 +1,4 @@
+//controller
 var myApp=angular.module('app', ['firebase']);
 myApp.factory("Auth", ["$firebaseAuth",
     function($firebaseAuth) {
